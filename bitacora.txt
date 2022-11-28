@@ -9,5 +9,8 @@
  (22)  git add bitacora.txt
  (23)  git commit -m "Paso 23"
  (24)  git checkout master          Se haría por fast forward puesto que en este punto no hemos hecho commit de los cambios en la rama master. Deberiamos hacerlo previamente y en ese caso sería recursiva al encontrarse conflictos por haber diferente texto en las mismas líneas.
-
+ (26)  git add bitacora.txt + git commit -m "Paso 26"
+ (27)  git tag RespuestaPreguntaFusion
+ (28)  git pull + git push          Commit de merge
+ 
  
