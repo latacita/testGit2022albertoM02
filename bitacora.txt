@@ -10,7 +10,7 @@
  (02)
  (03)  git branch Historia000
  (04)  git branch Historia001
- (05)  git checkout Historia000						Se pierde el cambio de nombre
+ (05)  git checkout Historia000	    Se pierde el cambio de nombre
  (07)  git add bitacora.txt
  (08)  git commit -m "Paso 08"
  (09)  git checkout Historia001
@@ -19,4 +19,7 @@
  (14)  git commit -m "Paso 14"
  (15)  git checkout Historia001
  (16)  git stash apply
-
+ (18)  git add bitacora.txt
+ (19)  git commit -m "Paso 19"
+ (20)  git merge Historia000       Se ocasionan conflictos, se resuelven escogiendo el contenido que nos interesa de cada rama y reorganizandolo para que queden en orden los pasos. Posteriormente un add del fichero con conflictos (bitacora.txt) y un commit para terminar el merge.
+ 
