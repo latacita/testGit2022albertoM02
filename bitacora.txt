@@ -1,8 +1,15 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Moro Carrera, Alberto                %%
 %%==================================================================%%
 
- Paso   Acción                       Notas
-====== ============================ ================================
+ Paso   Acción                       					Notas
+====== ============================ 					================================
+ (01)  git clone https://github.com/latacita/testGit2022albertoM02.git
+ (02)
+ (03)  git branch Historia000
+ (04)  git branch Historia001
+ (05)  git checkout Historia000						Se pierde el cambio de nombre
+ 
+	 
