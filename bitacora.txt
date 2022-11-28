@@ -11,5 +11,5 @@
  (03)  git branch Historia000
  (04)  git branch Historia001
  (05)  git checkout Historia000						Se pierde el cambio de nombre
- 
+ (11)  git stash
 	 
