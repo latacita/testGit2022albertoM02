@@ -1,15 +1,22 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Moro Carrera, Alberto                %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ (01)  git clone https://github.com/latacita/testGit2022albertoM02.git
+ (02)
+ (03)  git branch Historia000
+ (04)  git branch Historia001
+ (05)  git checkout Historia000						Se pierde el cambio de nombre
  (07)  git add bitacora.txt
  (08)  git commit -m "Paso 08"
  (09)  git checkout Historia001
+ (11)  git stash
  (13)  git add bitacora.txt
  (14)  git commit -m "Paso 14"
  (15)  git checkout Historia001
  (16)  git stash apply
+
